@@ -1,0 +1,50 @@
+
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.row-of-menu{
+    display: block;
+}
+
+.image-of-food{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.middle-segment-of-items{
+    display: flex;
+    flex-direction: column;
+}
+.title-of-items-inmenu{
+    color:grey;
+}
+
+#data-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    width:100%;
+    column-gap: 100px;
+}
+
+.card3{
+    display:flex;
+}
+
